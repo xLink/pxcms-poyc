@@ -1,0 +1,16 @@
+{
+    "name": "xLink/pxcms-poyc",
+    "type": "pxcms-module",
+    "description": "Poyc Module for PhoenixCMS",
+    "license": "MIT",
+    "authors": [
+        { "name": "xLink", "email": "xlink@cybershade.org" }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers" : "dev-master"
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/cysha/installers" }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Poyc",
+    "alias": "poyc",
+    "description": "Poyc Module for Phoenix CMS",
+    "authors": [
+        { "name": "xLink (Dan Aldridge)", "email": "xlink@cybershade.org" }
+    ],
+    "keywords": [
+    ],
+    "version": "v1.0.0",
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Cms\\Modules\\Poyc\\Providers\\PoycModuleServiceProvider",
+        "Cms\\Modules\\Poyc\\Providers\\PoycEventsProvider",
+        "Cms\\Modules\\Poyc\\Providers\\PoycRoutingProvider"
+    ],
+    "aliases": {
+    },
+    "files": [
+        "helpers.php"
+    ]
+}
