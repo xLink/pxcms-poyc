@@ -8,7 +8,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "composer/installers" : "dev-master"
+        "composer/installers" : "dev-master",
+        "paquettg/leaguewrap" : "dev-master"
     },
     "repositories": [
         { "type": "vcs", "url": "https://github.com/cysha/installers" }
